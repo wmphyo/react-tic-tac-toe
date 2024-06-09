@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden ;
+  -webkit-tap-highlight-color: transparent;
+  background:#3e3e3e;
+  user-select: none;
 }
 
 code {
